@@ -1,20 +1,22 @@
 public class GeneralPractitioner extends HealthProfessional {
     private String location;
 
-    //创建空参方法
-    public GeneralPractitioner() {}
+    //Construct default function (empty parameter)
+    public GeneralPractitioner() {
 
-    //创建有所有参数的方法
+    }
+
+    //Construct a function with all parameters
     public GeneralPractitioner(String doctorName,String gender,int age,int id, String professionalAge,String location){
         super(doctorName, gender, age, id, professionalAge);
         this.location=location;
     }
 
-    //set location
+    //set location method
     public void setLocation(String location){
         this.location=location;
     }
-    //get location
+    //get location method
     public String getLocation(){
         return location;
     }

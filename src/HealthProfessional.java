@@ -6,16 +6,13 @@ public class HealthProfessional {
   private int id;
   private String professionalAge;
 
-  //构造空参函数
-  public HealthProfessional(){}
-     /* this.name="unknown";
-      this.gender="unknown";
-      this.department="unknown";
-      this.age=0;
-      this.id=0;
-      this.professionalAge=0;*/
+  //Construct default function (empty parameter)
+  public HealthProfessional(){
 
-  //构造带所有参数的函数
+  }
+
+
+  //Construct a function with all parameters
     public HealthProfessional(String doctorName,String gender,int age,int id, String professionalAge) {
 
         this.doctorName = doctorName;
@@ -25,53 +22,53 @@ public class HealthProfessional {
         this.professionalAge=professionalAge;
     }
 
-    //set name 方法
+    //set name method
     public void getDoctorName(String doctorName){
         this.doctorName=doctorName;
     }
 
-    //get name 方法
+    //get name method
     public String getDoctorName(){
         return doctorName;
     }
 
-    //set gender 方法
+    //set gender method
     public void setGender(String gender) {
         this.gender = gender;
 
     }
-   //get gender 方法
+   //get gender method
     public String getGender(){
         return gender;
 
     }
 
-    //set age 方法
+    //set age method
     public void setAge(int age){
         this.age=age;
 
     }
-    //get age 方法
+    //get age method
 
     public int getAge() {
         return age;
     }
 
-    //set id 方法
+    //set id method
     public void setId(int id){
         this.id=id;
     }
-    //get id 方法
+    //get id method
 
     public int getId(){
         return id;
     }
 
-    //set professionalAge 方法
+    //set professionalAge method
     public void setProfessionalAge(String professionalAge){
         this.professionalAge=professionalAge;
     }
-    //get professionalAge 方法
+    //get professionalAge method
     public  String getProfessionalAge(){
         return professionalAge;
     }

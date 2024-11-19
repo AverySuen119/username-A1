@@ -2,30 +2,32 @@ public class Surgeon extends HealthProfessional {
     private String jobTitle;
     private String detailDepartment;
 
-    //创建空参方法
-    public Surgeon() {}
+    //Construct default function (empty parameter)
+    public Surgeon() {
 
-    //创建有所有参数的方法
+    }
+
+    //Construct a function with all parameters
     public Surgeon(String doctorName,String gender,int age,int id,String professionalAge,String jobTitle,String detailDepartment){
         super(doctorName, gender, age, id, professionalAge);
         this.jobTitle=jobTitle;
         this.detailDepartment=detailDepartment;
     }
 
-    //set jobTitle
+    //set jobTitle method
     public void setJobTitle(String jobTitle){
         this.jobTitle=jobTitle;
     }
-    //get jobTitle
+    //get jobTitle method
     public String getJobTitle(){
         return jobTitle;
     }
 
-    //set detailDepartment
+    //set detailDepartment method
     public void setDetailDepartment(String detailDepartment){
         this.detailDepartment=detailDepartment;
     }
-    //get detailDepartment
+    //get detailDepartment method
     public String getDetailDepartment(){
         return detailDepartment;
     }

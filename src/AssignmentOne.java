@@ -2,8 +2,9 @@ import java.util.ArrayList;
 public class AssignmentOne {
 
     public static void main(String[] args) {
-        // 程序入口
-        System.out.println("------------------------------------------------------------");
+
+        // Program entry
+        System.out.println("------------------------------");
         System.out.println("The health professional details are:\n");
 
         // Part 3 – Using classes and objects
@@ -17,16 +18,18 @@ public class AssignmentOne {
         //Surgeon surgeon3= new Surgeon("Dr.Irene","Female",34,832,5, "General Physician","Thoracic Surgery");
 
         generalPractitioner1.print();
-        System.out.println("------------------------------");
+        System.out.println("  ");
         generalPractitioner2.print();
-        System.out.println("------------------------------");
+        System.out.println("  ");
         generalPractitioner3.print();
-        System.out.println("------------------------------");
+        System.out.println("  ");
 
         surgeon1.print();
-        System.out.println("------------------------------");
+        System.out.println("  ");
         surgeon2.print();
-       // System.out.println("------------------------------");
+
+
+        System.out.println("------------------------------");
 
         // Part 5 – Collection of appointments
         ArrayList<Appointment> appointments = new ArrayList<>();
@@ -38,27 +41,28 @@ public class AssignmentOne {
 
 
 
-        //打印预约
-        System.out.println("------------------------------------------------------------");
+        //print the appointments
         System.out.println("This is the appointment list:\n");
         printAppointments(appointments);
 
 
 
-        //取消一个预约
+        //cancel a appointments
         System.out.println(" ");
         System.out.println("When an appointment is canceled:");
         cancelAppointment(appointments, "890-561-287");
         System.out.println(" ");
 
-        //打印更新后的预约
+        //print the updated appointments
         System.out.println("This is the updated appointment list:\n");
         printAppointments(appointments);
+
+        System.out.println("------------------------------");
     }
 
 
 
-//打印预约
+//print appointments
 public static void printAppointments(ArrayList<Appointment> appointments){
         if(appointments.isEmpty()){
             System.out.println("No Existing Appointment.");
@@ -66,12 +70,12 @@ public static void printAppointments(ArrayList<Appointment> appointments){
         else{
             for (Appointment appointment : appointments){
                 appointment.print();
-                System.out.println("------------------------------");
+                System.out.println("  ");
             }
         }
     }
 
-    //取消预约
+    //cancel appointments
     public static void cancelAppointment(ArrayList<Appointment> appointments, String patientPhoneNumber) {
         Appointment toRemove = null;
         for (Appointment appointment : appointments) {
@@ -88,5 +92,6 @@ public static void printAppointments(ArrayList<Appointment> appointments){
             System.out.println("No appointment found for phone: " + patientPhoneNumber);
         }
     }
+
 
 }
