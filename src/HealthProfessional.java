@@ -1,10 +1,10 @@
 public class HealthProfessional {
 
-  private String name;
+  private String doctorName;
   private String gender;
   private int age;
   private int id;
-  private int professionalAge;
+  private String professionalAge;
 
   //构造空参函数
   public HealthProfessional(){}
@@ -16,9 +16,9 @@ public class HealthProfessional {
       this.professionalAge=0;*/
 
   //构造带所有参数的函数
-    public HealthProfessional(String name,String gender,int age,int id, int professionalAge) {
+    public HealthProfessional(String doctorName,String gender,int age,int id, String professionalAge) {
 
-        this.name = name;
+        this.doctorName = doctorName;
         this.gender = gender;
         this.id = id;
         this.age = age;
@@ -26,13 +26,13 @@ public class HealthProfessional {
     }
 
     //set name 方法
-    public void getName(String name){
-        this.name=name;
+    public void getDoctorName(String doctorName){
+        this.doctorName=doctorName;
     }
 
     //get name 方法
-    public String getName(){
-        return name;
+    public String getDoctorName(){
+        return doctorName;
     }
 
     //set gender 方法
@@ -68,20 +68,20 @@ public class HealthProfessional {
     }
 
     //set professionalAge 方法
-    public void setProfessionalAge(int professionalAge){
+    public void setProfessionalAge(String professionalAge){
         this.professionalAge=professionalAge;
     }
     //get professionalAge 方法
-    public  int getProfessionalAge(){
+    public  String getProfessionalAge(){
         return professionalAge;
     }
 
     public void print(){
-        System.out.println("name"+name);
-        System.out.println("gender"+gender);
-        System.out.println("age"+age);
-        System.out.println("id"+id);
-        System.out.println("professionalAge"+professionalAge);
+        System.out.println("Doctor Name: "+doctorName);
+        System.out.println("Gender: "+gender);
+        System.out.println("Age: "+age);
+        System.out.println("Id: "+id);
+        System.out.println("ProfessionalAge: "+professionalAge);
 
     }
 }

@@ -5,13 +5,23 @@ public class GeneralPractitioner extends HealthProfessional {
     public GeneralPractitioner() {}
 
     //创建有所有参数的方法
-    public GeneralPractitioner(String name,String gender,int age,int id, int professionalAge,String location){
-        super(name, gender, age, id, professionalAge);
+    public GeneralPractitioner(String doctorName,String gender,int age,int id, String professionalAge,String location){
+        super(doctorName, gender, age, id, professionalAge);
         this.location=location;
     }
+
+    //set location
+    public void setLocation(String location){
+        this.location=location;
+    }
+    //get location
+    public String getLocation(){
+        return location;
+    }
+
     @Override
     public void print(){
         super.print();
-        System.out.println("location"+location);
+        System.out.println("location: "+location);
     }
 }
