@@ -11,7 +11,6 @@ public class HealthProfessional {
 
   }
 
-
   //Construct a function with all parameters
     public HealthProfessional(String doctorName,String gender,int age,int id, String professionalAge) {
 
@@ -21,7 +20,6 @@ public class HealthProfessional {
         this.age = age;
         this.professionalAge=professionalAge;
     }
-
 
     public void print(){
         System.out.println("Doctor Name: "+doctorName);

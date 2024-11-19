@@ -4,7 +4,7 @@ public class AssignmentOne {
     public static void main(String[] args) {
 
         // Program entry
-        System.out.println("  ");
+        System.out.println("   ");
         System.out.println("The health professional details are:\n");
 
 
@@ -74,6 +74,7 @@ public static void printAppointments(ArrayList<Appointment> appointments){
             }
         }
     }
+
 
     //cancel appointments
     public static void cancelAppointment(ArrayList<Appointment> appointments, String patientPhoneNumber) {

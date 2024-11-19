@@ -16,8 +16,7 @@ public class Appointment {
         this.patientPhoneNumber=patientPhoneNumber;
         this.doctor=doctor;
     }
-
-
+    
 
     public void print(){
         System.out.println("Patient Name: "+patientName);

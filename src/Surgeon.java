@@ -15,7 +15,6 @@ public class Surgeon extends HealthProfessional {
     }
 
 
-
     @Override
     public void print(){
         super.print();
