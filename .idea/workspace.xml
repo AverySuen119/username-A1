@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eedcd4dc-a37a-418c-a636-8a46e75cd985" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AssignmentOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/username-A1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GeneralPractitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HealthProfessional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Surgeon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AssignmentOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssignmentOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -71,7 +72,7 @@
       <updated>1731900278510</updated>
       <workItem from="1731900279596" duration="1123000" />
       <workItem from="1731983128456" duration="50000" />
-      <workItem from="1731983187433" duration="2024000" />
+      <workItem from="1731983187433" duration="13921000" />
     </task>
     <servers />
   </component>
