@@ -14,23 +14,8 @@ public class Surgeon extends HealthProfessional {
         this.detailDepartment=detailDepartment;
     }
 
-    //set jobTitle method
-    public void setJobTitle(String jobTitle){
-        this.jobTitle=jobTitle;
-    }
-    //get jobTitle method
-    public String getJobTitle(){
-        return jobTitle;
-    }
 
-    //set detailDepartment method
-    public void setDetailDepartment(String detailDepartment){
-        this.detailDepartment=detailDepartment;
-    }
-    //get detailDepartment method
-    public String getDetailDepartment(){
-        return detailDepartment;
-    }
+
     @Override
     public void print(){
         super.print();

@@ -12,14 +12,6 @@ public class GeneralPractitioner extends HealthProfessional {
         this.location=location;
     }
 
-    //set location method
-    public void setLocation(String location){
-        this.location=location;
-    }
-    //get location method
-    public String getLocation(){
-        return location;
-    }
 
     @Override
     public void print(){

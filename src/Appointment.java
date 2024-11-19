@@ -17,33 +17,6 @@ public class Appointment {
         this.doctor=doctor;
     }
 
-    //set patientName method
-    public void setPatientName(String patientName){
-        this.patientName=patientName;
-    }
-    //get patientName method
-    public String getPatientName(){
-        return patientName;
-    }
-
-    //set appointmentTime method
-    public void setAppointmentTime(String appointmentTime){
-        this.appointmentTime=appointmentTime;
-    }
-    //get appointmentTime method
-    public String getAppointmentTime(){
-        return appointmentTime;
-    }
-
-    //set patientPhoneNumber method
-    public void setPatientPhoneNumber(String patientPhoneNumber){
-        this.patientPhoneNumber=patientPhoneNumber;
-    }
-    //get patientPhoneNumber method
-    public String getPatientPhoneNumber(){
-        return patientPhoneNumber;
-    }
-
 
 
     public void print(){

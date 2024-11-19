@@ -4,8 +4,9 @@ public class AssignmentOne {
     public static void main(String[] args) {
 
         // Program entry
-        System.out.println("------------------------------");
+        System.out.println("  ");
         System.out.println("The health professional details are:\n");
+
 
         // Part 3 – Using classes and objects
 
@@ -31,6 +32,7 @@ public class AssignmentOne {
 
         System.out.println("------------------------------");
 
+
         // Part 5 – Collection of appointments
         ArrayList<Appointment> appointments = new ArrayList<>();
 
@@ -46,7 +48,6 @@ public class AssignmentOne {
         printAppointments(appointments);
 
 
-
         //cancel a appointments
         System.out.println(" ");
         System.out.println("When an appointment is canceled:");
@@ -59,7 +60,6 @@ public class AssignmentOne {
 
         System.out.println("------------------------------");
     }
-
 
 
 //print appointments
